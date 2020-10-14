@@ -1,0 +1,41 @@
+.table {
+  display: flex;
+
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  border: 0;
+}
+
+th, td {
+  font-weight: normal; 
+  padding: 15px;
+  
+}
+
+th {
+  
+  border-top: solid 1px;
+  border-color:rgba(0, 0, 0, 0.2);
+}
+
+
+.is_even {
+  background-color: #F2F2F2;
+}
+
+.no {
+  width: 5%;
+}
+.first {
+  
+  flex-grow: 4;
+}
+.last {
+  flex-grow: 4;
+}
+.handle {
+  flex-grow: 4
+}
