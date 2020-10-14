@@ -1,10 +1,7 @@
-### BÀI 1 
-1) Remix: https://glitch.com/~codersx-noti-comp-template
-2) Đọc đề bài ở src/components/Notification.js
-    // Component này dùng để hiển thị icon hình quả chuông như hình dưới
-    // Screenshot: ![Image](https://cdn.glitch.com/6ecf0067-b2e5-4d35-b27d-e91d326d2da4%2FPasted_Image_4_20_20__8_35_PM.png?v=1587382516834)
-    // Có chấm đỏ là một thẻ div, biểu thị rằng đang có notification chưa đọc
-    // Sử dụng prop `hasUnread` để điều khiển việc hiển thị chấm đỏ
-    // Cho biết hasUnread là một boolean
-    // Dùng icon ở flaticon.com
-    // Thêm component này vào App component để test
+### BÀI 1
+1) Remix: https://glitch.com/~codersx-react-template
+2) Mở design: https://www.figma.com/file/M2Lh7XaEKWnds9SeEuJ1l0/B%C3%A0i-t%E1%BA%ADp-CSS-cho-entry-test?node-id=147%3A36
+3) Viết component SearchBox có state như sau:
+
+{ isFocused: false }
+4) Khi input được focus thì giá trị isFocused chuyển sang true và ẩn icon search màu tím đi

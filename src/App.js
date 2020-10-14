@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import InfoTable from './components/InfoTable';
 import Notification from './components/Notification';
+import SearchBox from './components/SearchBox';
+
 
 class App extends Component {
   constructor(){
@@ -15,8 +17,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Notification hasUnread={true}/>
-        <InfoTable infoTable={this.infoTable} />
+        
+        <SearchBox isFocused={false}/>
+        
       </div>
     );
   }
