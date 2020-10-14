@@ -13,23 +13,22 @@
 }
 
 .search-icon {
-  background-color: #4A36EB;
+  background-color: #5a49da;
   border-radius: 50%;
   margin-right: 9px;
   width: 2.3em;
   height: 2.3em;
 }
 
-img {
+i {
   width: 1.3em;
   transform: rotate(71deg);
   margin-top: 5px;
-  margin-right: 6px;
-  margin-bottom: 5px;
-  margin-left: 6px;
+  margin-left: 2px;
+  color:white;
+  font-weight:light;
+  font-size: medium;
 }
-
-
 
 .input {
   width: 80%;
@@ -43,8 +42,12 @@ input[type=text] {
   color: #7C92CD, 100%;
 }
 
+::placeholder {
+  color: #4A36EB;
+}
+
 input:focus {
-  
+  outline: none;
 }
 
 

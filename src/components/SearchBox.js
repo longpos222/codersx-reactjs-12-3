@@ -7,13 +7,24 @@ class SearchBox extends Component {
     super(props);
     this.state = { isFocused: false };
   }
+
   render() { 
     return ( 
       <div className="search-box">
-        <input className='input' type="text" placeholder='Type something to search ...'></input>
-        <div className='search-icon'>
-        <img src={searchIcon}></img>
-        </div>
+        <input 
+        onFocus={() => {this.setState({isFocused : true})}} 
+        onBlur={() => {this.setState({isFocused : false})}} 
+        className='input' 
+        type="text" 
+        placeholder='Type something to search ...'
+        />
+        {
+          !this.state.isFocused && (
+            <div className='search-icon'>
+              <i class="fas fa-search"></i>
+            </div>
+          )
+        }
       </div>
      );
   }
