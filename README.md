@@ -1,3 +1,11 @@
+BÀI 3
+1) Remix bài 1
+2) Viết logic sao cho khi người dùng nhập một string không phải là một số điện thoại có 10 chữ số bắt đầu bằng 090, thì border chuyển sang màu `#F00`
+
+
+
+___
+
 ### BÀI 2
 1) Remix bài 1
 2) Viết logic sao cho nếu người dùng nhập vào > 10 ký tự thì border của input đổi màu sang `#F00`
