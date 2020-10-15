@@ -27,13 +27,13 @@ class SearchBox extends Component {
   handlePhone(event) {
     const target = event.target;
     const length = target.value.length === 10;
-    const prefix = target.value.slice(0, 4) === "090";
-
+    const prefix = target.value.slice(0, 3) === "090";
+    
     this.setState({
       className:
-        !length && !prefix 
-        ? "search-box search-box-border" 
-        : "search-box",
+        length && prefix 
+        ? "search-box" 
+        : "search-box search-box-border",
       isFocused: false,
     });
   }
