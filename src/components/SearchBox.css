@@ -12,6 +12,11 @@
   align-items: center;
 }
 
+.search-box-border{
+  border-color:#F00;
+  border-width: 2px;
+}
+
 .search-icon {
   background-color: #5a49da;
   border-radius: 50%;

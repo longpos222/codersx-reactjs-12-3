@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import InfoTable from './components/InfoTable';
-import Notification from './components/Notification';
+// import InfoTable from './components/InfoTable';
+// import Notification from './components/Notification';
 import SearchBox from './components/SearchBox';
 
 
